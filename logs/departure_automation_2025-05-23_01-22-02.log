@@ -1,0 +1,21 @@
+=== Starting Departure Status Automation at Fri May 23 01:22:02 EAT 2025 ===
+Using files:
+- Status file: your_real_status_file.xlsx
+- History file: your_real_history_file.xlsx
+- Output will be saved to: output/updated_departure_status_2025-05-23.xlsx
+- Name mapping report will be saved to: output/name_mapping_report_2025-05-23.xlsx
+2025-05-23 01:22:03,293 - INFO - ====== Departure Status Automation Started ======
+2025-05-23 01:22:03,293 - INFO - Script executed at 2025-05-23 01:22:03.293700
+2025-05-23 01:22:03,295 - ERROR - File not found: your_real_status_file.xlsx
+2025-05-23 01:22:03,295 - ERROR - An error occurred: Could not find the file: your_real_status_file.xlsx
+Traceback (most recent call last):
+  File "/Users/kiwana/Desktop/AutomateKHM/automate_departure_status.py", line 732, in <module>
+    main()
+  File "/Users/kiwana/Desktop/AutomateKHM/automate_departure_status.py", line 655, in main
+    status_df = load_csv_file(args.input_status, "status")
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/kiwana/Desktop/AutomateKHM/automate_departure_status.py", line 55, in load_csv_file
+    raise FileNotFoundError(f"Could not find the file: {filepath}")
+FileNotFoundError: Could not find the file: your_real_status_file.xlsx
+Departure status automation completed successfully!
+=== Completed Departure Status Automation at Fri May 23 01:22:03 EAT 2025 ===

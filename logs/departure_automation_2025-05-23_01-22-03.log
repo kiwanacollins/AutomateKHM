@@ -1,0 +1,4 @@
+2025-05-23 01:22:03,293 - INFO - ====== Departure Status Automation Started ======
+2025-05-23 01:22:03,293 - INFO - Script executed at 2025-05-23 01:22:03.293700
+2025-05-23 01:22:03,295 - ERROR - File not found: your_real_status_file.xlsx
+2025-05-23 01:22:03,295 - ERROR - An error occurred: Could not find the file: your_real_status_file.xlsx
