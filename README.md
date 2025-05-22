@@ -13,11 +13,24 @@ See the `REAL_DATA_GUIDE.md` file for specific instructions on using this tool w
 ## Quick Start
 
 1. Edit `config.sh` with your actual Excel file names
-2. Run `./run_with_real_data.sh`
+2. Run `./run_with_real_data.sh` (it will check and install dependencies if needed)
 3. Check the output files:
    - Updated departure status Excel file in the `output` directory
    - Name mapping report Excel file in the `output` directory
    - Log file in the `logs` directory
+
+## Dependencies
+
+Dependencies are managed through `requirements.txt`. The script will check for and offer to install missing dependencies. You can also install them manually:
+
+```bash
+pip install -r requirements.txt
+```
+
+Main dependencies include:
+- pandas - For data manipulation
+- openpyxl - For Excel file support
+- python-Levenshtein - For efficient name matching (optional)
 
 ## Directory Structure
 

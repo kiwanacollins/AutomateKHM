@@ -2,6 +2,13 @@
 
 This guide explains how to use the departure status automation with your actual Excel files.
 
+## Prerequisites
+
+- Python 3.6 or higher
+- Required Python packages (the script will offer to install these for you)
+  - pandas
+  - openpyxl (for Excel file support)
+
 ## Quick Start
 
 1. **Place your Excel files in this folder**
